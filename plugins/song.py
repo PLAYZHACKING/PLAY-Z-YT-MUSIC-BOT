@@ -18,11 +18,11 @@ def time_to_seconds(time):
 ## Commands --------
 @Client.on_message(filters.command(['start']))
 async def start(client, message):
-       await message.reply("➪ Heyy., iam YTMuzic bot\n➪ your music assistant 🎧\n➪ sent me a song name which you want...",
+       await message.reply("➪ Hey., iam YTMusic bot(by- @PLAYZ_HACKING)\n➪ your music assistant 🎧\n➪ sent me a song name which you want...",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Developer', url='https://instagram.com/riz.4d')
+                    InlineKeyboardButton('👑Developer', url='https://t.me/.PLAYZ_90')
                 ]
             ]
         )
@@ -30,11 +30,11 @@ async def start(client, message):
 
 @Client.on_message(filters.command(['help']))
 async def help(client, message):
-       await message.reply("<b><i>How many times have I said that just giving the name of a song\nDo not expect any other help from me.</i>\n\n<b>Eg</b> `Middle of the night`",
+       await message.reply("<b><i>How many times have I said that just giving the name of a song\nPlease do not expect any other help from me.</i>\n\n<b>Eg</b> `Middle of the night`",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Developer', url='https://t.me/riz4d')
+                    InlineKeyboardButton('👑 CREATED BY', url='https://t.me/+CK4EXZbq7DRkZmE1')
                 ]
             ]
         )
@@ -42,7 +42,7 @@ async def help(client, message):
 
 @Client.on_message(filters.command(['about']))
 async def about(client, message):
-       await message.reply("➪ <b>Project Name</b> : [YTMuzic Bot](https://t.me/YTMuzic_bot)\n➪ <b>Author</b> : [@riz4d](https://t.me/riz4d)\n➪ <b>Library</b> : Pyrogram\n➪ <b>License Type</b> : GNU General public License (GPL)",
+       await message.reply("➪ <b>Bot Name🤖</b> : [PLAY-Z YT MUSIC BOT Bot](https://t.me/PLAYZ_YT_MUSIC_BOT)\n➪ <b>👑CREATOR</b> : [👑⛥꯭ᴳᴼᴰ⛥꯭❖꯭𓂀⃝𝗣ʟᴀʏ-ᴢ𓂀⃝꯭❖⛥꯭](https://t.me(PLAYZ_90)\n➪ <b>Library</b> : Pyrogram",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -56,7 +56,7 @@ async def about(client, message):
 def a(client, message):
     query=message.text
     print(query)
-    m = message.reply('Searching the song...')
+    m = message.reply('Searching the song🎵...')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
