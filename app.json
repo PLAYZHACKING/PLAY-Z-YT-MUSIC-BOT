@@ -1,11 +1,11 @@
 {
-    "name": "YT-Muzic",
-    "description": "A python oriented telegram bot to download songs on telegram developed by @riz4d",
-    "logo": "https://a.top4top.io/p_21675qvgj1.jpg",
+    "name": "PLAY-Z YT MUSIC SEARCH BOT",
+    "description": "A python oriented telegram bot to download songs on telegram developed by @PLAYZ_90",
+    "logo": "https://bit.ly/42u1OXw",
     "keywords": [
-        "rizad"
+        "PLAY-Z"
     ],
-    "repository": "https://github.com/riz4d/YT-Muzic",
+    "repository": "SECRET🤫",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
